@@ -84,7 +84,7 @@ const Home = () => {
         <ModalSelector
           style={styles.select}
           data={cities.map((city) => ({key: city, label: city}))}
-          initValue={selectedCity === '0' ? 'Selecione o UF' : selectedCity}
+          initValue={selectedCity === '0' ? 'Selecione a cidade' : selectedCity}
           optionTextStyle={styles.modalOptionText}
           selectStyle={{borderColor: '#ddd'}}
           initValueTextStyle={{color: '#666'}}
