@@ -1,5 +1,4 @@
-# Ecoleta
-![Logo do ecoleta](/ecoleta/src/assets/logo.svg)
+  ![Logo do ecoleta](/ecoleta/src/assets/logo.svg)
 
 Este projeto foi desenvolvido em um evento realizado pela [Rocketseat](https://rocketseat.com.br/), na semana NextLevelWeek, é um projeto voltado para a coleta de recicláveis. Onde é registrado no sistemas os pontos de coleta deste material.
 
@@ -35,10 +34,12 @@ Primeiro
 depois
 
 > yarn knex:migrate ou npm run knex:migrate
-para gerar a base de dado com as migrações, que é o sqlite3 ele ja vai estar instalado se foi executado o primeiro comando
+
+Para gerar a base de dado com as migrações, que é o sqlite3 ele ja vai estar instalado se foi executado o primeiro comando
 
 > yarn knex:seed ou npm run knex:seed
-para gerar o seed de itens ou seja uma lista de itens ja populado na tabele de itens.
+
+Para gerar o seed de itens ou seja uma lista de itens ja populado na tabele de itens.
 
 Para o app é necessário gerar uma API_KEY do google maps, para isso será preciso esta logado 
 na sua conta do google.
@@ -46,16 +47,20 @@ na sua conta do google.
 ## Visão do projeto
 
 Pagina Home
+
 ![tela da aplicação web](/ecoleta.png)
 
 Pagina de cadastro
+
 ![tela de cadastro](/cadastro.png)
 ![tela de cadastro](/cadastro1.png)
 ![tela de cadastro](/cadastro2.png)
 
 Telas do APP
+
 ![Tela home app](/apphome.png)
 ![Tela select uf app](/appuf.png)
+
 ![Tela select city app](/appcity.png)
 ![Tela point app](/apppoint.png)
 ![Tela detail app](/appdetail.png)
